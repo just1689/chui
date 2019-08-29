@@ -1,5 +1,5 @@
-# chisel-tui
-A small wrapper about chisel. The goal of this project is to make it easier to work with chisel for development purposes for example.
+# chui
+A small wrapper about <a href="https://github.com/jpillora/chisel">Chisel</a>. The goal of this project is to make it easier to work with chisel for development purposes for example.
 
 ## Generate config file
 ```bash
@@ -26,5 +26,8 @@ A small wrapper about chisel. The goal of this project is to make it easier to w
     docker build -t image:tag --file Dockerfile.declarative .
 ```
 
-
+## Usage examples
+- Proxy a number of services on another network - in a container cluster for example.
+- Expose a service in one cluster to another cluster.
+- Development
 
