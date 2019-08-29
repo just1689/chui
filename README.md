@@ -22,6 +22,9 @@ A small wrapper around <a href="https://github.com/jpillora/chisel">Chisel</a>. 
     # Make sure you have generated the file
     # chui -g config.json
 
+    # ... and edited also
+    # vi config.json
+
     # Build the declarative container
     docker build -t image:tag --file Dockerfile.declarative .
     docker run -p port:port image:tag
