@@ -9,6 +9,17 @@ A small wrapper around <a href="https://github.com/jpillora/chisel">Chisel</a>. 
     go run app.go -g config.json
 ```
 
+## Modify the config file
+```json
+    {
+      "server": "http://chiselserver:port",
+      "remotes": [
+        "localhost:8000:api:8000",
+        "localhost:5432:db:5432"
+      ]
+    }
+```
+
 ## Run locally
 ```bash
     # Run the file from the executable
