@@ -1,0 +1,2 @@
+FROM just1689/chisel-tui:latest
+COPY config.json /config.json
