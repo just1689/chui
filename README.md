@@ -1,5 +1,5 @@
 # chui
-A small wrapper about <a href="https://github.com/jpillora/chisel">Chisel</a>. The goal of this project is to make it easier to work with chisel for development purposes for example.
+A small wrapper around <a href="https://github.com/jpillora/chisel">Chisel</a>. The goal of this project is to make it easier to work with chisel in a declarative way.
 
 ## Generate config file
 ```bash
