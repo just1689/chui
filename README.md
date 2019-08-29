@@ -24,6 +24,7 @@ A small wrapper about <a href="https://github.com/jpillora/chisel">Chisel</a>. T
 
     # Build the declarative container
     docker build -t image:tag --file Dockerfile.declarative .
+    docker run -p port:port image:tag
 ```
 
 ## Usage examples
