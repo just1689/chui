@@ -23,7 +23,7 @@ A small wrapper about chisel. The goal of this project is to make it easier to w
     # chui -g config.json
 
     # Build the declarative container
-    docker build -t t:t --file Dockerfile.declarative .
+    docker build -t image:tag --file Dockerfile.declarative .
 ```
 
 
