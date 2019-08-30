@@ -1,4 +1,4 @@
-module github.com/just1689/chisel-tui
+module github.com/just1689/chui
 
 go 1.12
 
